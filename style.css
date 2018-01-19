@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Georgia, serif;
+  padding: 20px 0;
+}
+main, header, footer {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo-block {
+  display: inline-block;
+  min-width: 200px;
+}
+.logo-block img {
+  float: left;
+  margin-right: 10px;
+}
+.logo-block h2 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 35px;
+  font-weight: bold;
+}
+.logo-block p {
+  font-family: Helvetica, sans-serif;
+  font-size: 8px;
+  text-transform: uppercase;
+  color: #777;
+}
+header ul {
+  float: right; 
+  margin-top: 10px;
+}
+header ul li {
+  display: inline-block;
+}
+header hr {
+  height: 10px;
+  margin: 20px 0;
+  background-color: #eee;
+  border: none;
+}
+
