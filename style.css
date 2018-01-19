@@ -5,6 +5,9 @@ body {
   font-family: Georgia, serif;
   padding: 20px 0;
 }
+header{
+  position: relative;
+}
 main, header, footer {
   width: 960px;
   margin-left: auto;
@@ -23,10 +26,31 @@ main, header, footer {
   font-size: 35px;
   font-weight: bold;
 }
-.logo-block p {
+h1 {
+  display: inline-block;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 15px 0 3px 0;
+}
+header p,
+header h1 {
   font-family: Helvetica, sans-serif;
-  font-size: 8px;
+}
+header p {
   text-transform: uppercase;
+  font-size: 10px;
+  color: #aaa;
+}
+.print-this {
+position: absolute;
+right: 0;
+bottom: 0;
+}
+.print-this p{
+display: inline-block;
+}
+.logo-block p {
+  font-size: 8px;
   color: #777;
 }
 header ul {
@@ -36,10 +60,17 @@ header ul {
 header ul li {
   display: inline-block;
 }
+header ul li:nth-of-type(6) {
+  margin-right: 5px;
+}
 header hr {
   height: 10px;
   margin: 20px 0;
   background-color: #eee;
   border: none;
+}
+main{
+   margin-top: 20px;
+   clear: both;
 }
 
