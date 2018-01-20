@@ -63,7 +63,8 @@ header ul li {
 header ul li:nth-of-type(6) {
   margin-right: 5px;
 }
-header hr {
+header hr,
+footer hr {
   height: 10px;
   margin: 20px 0;
   background-color: #eee;
@@ -73,4 +74,39 @@ main{
    margin-top: 20px;
    clear: both;
 }
+main > img {
+  width: 960px;
+  margin-bottom: 30px;
+}
+main p {
+  color: #777;
+  line-height: 1.45;
+}
+main p {
+  margin-bottom: 25px;
+}
+main form {
+  background-image: url("assets/list-bg.png");
+  overflow: auto;
+  box-shadow: 2px 5px 5px #ccc;
+}
+ main ul {
+  float: left;
+  margin: 30px 50px;
+}
+main ul:last-of-type {
+ float: right;
+}
+main ul li {
+  margin-bottom: 5px;
+}
+
+footer {
+  clear: both;
+  margin-top: 40px;
+}
+footer hr {
+  margin-bottom: 20px;
+}
+
 
