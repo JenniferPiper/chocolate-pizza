@@ -92,13 +92,13 @@ main form {
 }
  main ul {
   float: left;
-  margin: 30px 50px;
+  margin: 42px 50px 30px;
 }
 main ul:last-of-type {
  float: right;
 }
 main ul li {
-  margin-bottom: 5px;
+  margin-bottom: 13px;
 }
 
 footer {
@@ -107,6 +107,50 @@ footer {
 }
 footer hr {
   margin-bottom: 20px;
+}
+.footer-top {
+  padding-bottom: 20px;
+}
+.footer-top img {
+  float: left;
+  margin-right: 15px;
+}
+.footer-top h3{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.footer-top p {
+  display: inline-block;
+  width: 60%;
+  line-height: 1.4;
+  color: #777;
+}
+.footer-top button {
+  float: right;
+  background-color: #bc7058;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 200;
+  border: none;
+}
+.footer-bottom {
+  position: relative;
+  clear: both;
+  border-top: 1px solid #ccc;
+  color: #ccc;
+  text-align: center;
+  line-height: 1.4;
+}
+.footer-bottom img {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  top: -23px;
+  border: 5px solid white;
 }
 
 
